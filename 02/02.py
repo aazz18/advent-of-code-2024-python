@@ -1,3 +1,5 @@
+# https://adventofcode.com/2024/day/2
+
 def check_if_level_is_safe(level: list) -> bool:
     differance = [x - y for x, y in zip(level, level[1:])]
     is_ascending_or_not =  all(d > 0 for d in differance) or all(d < 0 for d in differance)
