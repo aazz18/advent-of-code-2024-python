@@ -22,7 +22,7 @@ def solution2(input: str) -> int:
         if i[0] == "do()":
             do = True
         elif i[0] == "don't()":
-            do=False
+            do = False
         elif i[0] and i[1] and i[2] and do:
             num1 = int(i[1])
             num2 = int(i[2])
