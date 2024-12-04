@@ -1,3 +1,6 @@
+*.txt
+# I did not know you had to do this for AOC :(
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
